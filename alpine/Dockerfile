@@ -10,9 +10,9 @@ LABEL maintainer="Paul Buonopane <paul@earth2me.com>"
 
 # Docker Build Arguments
 ARG RESTY_VERSION="1.13.6.2"
-ARG RESTY_OPENSSL_VERSION="1.1.0h"
+ARG RESTY_OPENSSL_VERSION="1.0.2o"
 ARG RESTY_PCRE_VERSION="8.42"
-ARG RESTY_J="1"
+ARG RESTY_J="4"
 ARG RESTY_CONFIG_OPTIONS="\
     --with-file-aio \
     --with-http_addition_module \
